@@ -1,6 +1,6 @@
 import React from "react";
 import resources from "../assets/ressurser";
-import "../styles/resources.scss"; // Importer SCSS riktig
+import "../styles/resources.scss";
 
 export default function Resources({ category }) {
   const filteredResources = resources.filter(
