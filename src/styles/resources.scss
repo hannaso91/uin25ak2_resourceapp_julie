@@ -1,3 +1,10 @@
+main{
+    margin-top: 0;
+    margin-left: 200px;
+    min-width: 1050px;
+    max-width: 1050px;
+}
+
 .resources {
     background: #fff;
     padding: 20px 40px 20px 60px;  
@@ -8,10 +15,22 @@
     h2 {
         font-size: 16px;
         text-decoration: none;  
+        text-align: left;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 
-    a {
-        text-decoration: none; 
-        font-weight: bold;
+    ul{
+
+        li{
+            text-align: left;
+            padding-left: 10px;
+          a {
+                text-decoration: none; 
+                font-weight: bold;
+            }   
+        }
     }
+
+   
 }
